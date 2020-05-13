@@ -1,0 +1,89 @@
+  html {
+    background-color: #E1BEE7;
+  }
+  
+  a:link {
+    color: #E91E63;
+  }
+
+  a:visited {
+    color: #AB47BC;
+  }
+
+  a:active {
+    color: #26C6DA;
+  }
+
+  body {
+    margin: 25px 50px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #F06292;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .topnav{
+    background-color: #F06292;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+
+  .topnav a, .dropbtn {
+    display: inline-block;
+    background-color: #F06292;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #C2185B;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FCE4EC;
+    min-width: 160px;
+    box-shadow: 0 8 16 0 #E1BEE7;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    background-color: #FCE4EC;
+    color: #C2185B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+ }
+
+  .dropdown-content a:hover {
+    background-color: #F06292;
+    color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .topnav a.active {
+    background-color: #C2185B;
+    color: white;
+  }
